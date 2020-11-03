@@ -1,0 +1,36 @@
+name: games_store
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animations: ^1.1.2
+  cupertino_icons: ^1.0.0
+  rxdart: ^0.24.1
+  cached_network_image: ^2.3.3
+  shared_preferences: ^0.5.12+2
+  very_good_analysis: ^1.0.3
+  pedantic: ^1.9.2
+  page_indicator: ^0.3.0
+  # rawg_sdk_dart:
+  #   git:
+  #     url: https://github.com/quetool/rawg_sdk_dart
+  #     ref: 27d45de
+  rawg_sdk_dart:
+    path: /Users/alfredo.rinaudo/Development/projects/flutter/rawg_sdk_dart
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/placeholder.jpg
